@@ -1,0 +1,1 @@
+{"index.js":"function titleCase(str) {\n  str = str.toLowerCase();\n  str = str.split(' ');\n for (var i = 0; i < str.length; i++) {\n   str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);\n }\n  return str.join(' ');\n}\n\ntitleCase(\"I'm a little tea pot\");"}
