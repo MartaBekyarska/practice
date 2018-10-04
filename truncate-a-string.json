@@ -1,0 +1,1 @@
+{"index.js":"function truncateString(str, num) {\n  // Clear out that junk in your trunk\n  if (str.length > num && num > 3){\n\n    return str.slice(0, num) + '...';\n\n  }else if (str.length > num && num <= 3){\n\n    return str.slice(0, num) + '...';\n    \n  }else {\n  return str;\n}\n}\ntruncateString(\"A-tisket a-tasket A green and yellow basket\", 8);"}
